@@ -4,6 +4,7 @@
         tag: latest
 
     ci:
+        - find / -name setting.xml
         - cp  service-A/alaudaci/settings.xml  /etc/maven/
         - cd  service-A
         - mvn clean package
