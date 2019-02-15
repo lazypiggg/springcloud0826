@@ -5,6 +5,6 @@
 
     ci:
         - find / -name setting.xml
-        - cp  /home/jenkins/workspace/liuzy/gateway-liuzy/__source__/service-A/alaudaci/settings.xml  /etc/maven/
+        - cp  /home/jenkins/workspace/liuzy/servicea-liuzy/__source__/service-A/alaudaci/settings.xml  /etc/maven/
         - mvn clean package
         
